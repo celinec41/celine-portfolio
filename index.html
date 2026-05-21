@@ -1,76 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Celine Chen | Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Celine Chen | Portfolio</title>
 
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
 
-    <!-- Main CSS -->
-    <link rel="stylesheet" href="style.css">
-
-    <!-- Font Awesome icons for Email, LinkedIn, GitHub -->
+    <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
+    <!-- Navigation Bar -->
     <nav>
-        <div class="logo">Celine Chen</div>
+        <div class="logo"> Celine Chen</div>
 
         <div class="nav-links">
             <a href="#about">About</a>
-            <a href="#building">Interests</a>
+            <a href="#skills">Skills</a>
+            <a href="#interests">Interests</a>
             <a href="#projects">Projects</a>
             <a href="#experience">Experience</a>
             <a href="#contact">Contact</a>
+            <a href="SiyiCelineChen-Resume .pdf" target="_blank">Resume</a>
         </div>
     </nav>
 
+    <!-- Hero Section -->
     <header class="hero">
         <div class="hero-text">
-            <p class="small-title">Computer Science Student @ University of Toronto 💻</p>
+            <p class="small-title">Computer Science Student | Data Analytics | Software Development</p>
 
-            <h1>Hey, I'm Celine 👋 </h1>
+            <h1>Hello, I am  Celine Chen</h1>
 
             <p class="hero-description">
-                 I am a Computer Science student at the University of Toronto, specializing in
-            Computer Science. I enjoy working with programming, data analysis, visualization, and real-world problem solving.
-
+                I am a Computer Science student at the University of Toronto with interests in
+                data analytics, software development, machine learning, and financial technology.
+                I enjoy working with data, analyzing real-world problems, and developing practical
+                solutions based on data insights.
             </p>
 
             <div class="hero-buttons">
-                <a href="#projects" class="btn primary-btn">View Projects 🚀</a>
-                <a href="#contact" class="btn secondary-btn">Contact Me 📬</a>
+                <a href="#projects" class="btn primary-btn">View Projects</a>
+
+                <a href="Resume.pdf" class="btn secondary-btn" target="_blank">
+                    View Resume
+                </a>
             </div>
         </div>
 
         <div class="hero-image">
-            <img src="profile.jpg" alt="Photo of Celine Chen">
+            <img src="profile.jpg" alt="Profile photo of Siyi Celine Chen">
         </div>
     </header>
 
+    <!-- About Section -->
     <section id="about">
-        <h2>About Me ✨</h2>
+        <h2>About Me</h2>
 
         <p>
-                I enjoy working with programming, data analysis, visualization,
-                and real-world problem solving. I like creating projects that combine
-                technical logic with practical impact.
-           
+            I am currently studying Computer Science at the University of Toronto, with minors in
+            Statistics and Mathematics. My academic and project experience has helped me build a strong
+            foundation in programming, data analysis, databases, and software design.
         </p>
 
         <p>
-            I am especially interested in using technology to understand data, build useful
-            tools, and create interactive applications. Through my coursework and projects,
-            I have gained experience in software design, data structures, databases,
-            computer organization, machine learning, and data visualization.
+            I am especially interested in working with data, analyzing real-world problems,
+            and developing practical solutions based on data insights. I enjoy using programming,
+            statistics, and visualization tools to understand patterns and support better decision-making.
         </p>
+    </section>
 
-        <p>
-            I like projects that combine technical skills with practical impact, such as
-            building dashboards, analyzing financial data, designing trip-planning tools,
-            and creating games with low-level programming.
-        </p>
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
 
         <div class="skills">
             <span>Python</span>
@@ -80,49 +89,30 @@
             <span>HTML</span>
             <span>CSS</span>
             <span>JavaScript</span>
-            <span>Data Analysis</span>
-            <span>Data Cleaning</span>
-            <span>Data Visualization</span>
-            <span>Machine Learning</span>
-            <span>Feature Engineering</span>
+            <span>Git</span>
+            <span>Excel</span>
+            <span>VBA</span>
             <span>Dash</span>
             <span>Plotly</span>
-            <span>Matplotlib</span>
-            <span>Excel VBA</span>
-            <span>Git</span>
-            <span>GitHub</span>
-            <span>Object-Oriented Programming</span>
-            <span>Clean Architecture</span>
-            <span>API Integration</span>
-            <span>Debugging</span>
-            <span>Database Systems</span>
-            <span>Problem Solving</span>
+            <span>Data Analysis</span>
+            <span>Machine Learning</span>
+            <span>Database Design</span>
         </div>
     </section>
 
-    <section id="building">
-        <h2>What I Like Building 🛠️</h2>
+    <!-- Interests Section -->
+    <section id="interests">
+        <h2>Interests</h2>
 
         <div class="interest-grid">
+
             <div class="interest-card">
                 <div class="interest-icon">
                     <i class="fa-solid fa-chart-line"></i>
                 </div>
-                <h3>Data Tools 📊</h3>
+                <h3>Data Analytics</h3>
                 <p>
-                    I like creating tools that make complex data easier to understand,
-                    compare, and use.
-                </p>
-            </div>
-
-            <div class="interest-card">
-                <div class="interest-icon">
-                    <i class="fa-solid fa-chart-pie"></i>
-                </div>
-                <h3>Interactive Visualizations 🌈</h3>
-                <p>
-                    I enjoy turning numbers into dashboards, charts, and visual stories
-                    that are easier to explore.
+                    I enjoy using data to find patterns, explain trends, and support better decisions.
                 </p>
             </div>
 
@@ -130,126 +120,97 @@
                 <div class="interest-icon">
                     <i class="fa-solid fa-code"></i>
                 </div>
-                <h3>Practical Applications 🧩</h3>
+                <h3>Software Development</h3>
                 <p>
-                    I like building applications that solve real problems, such as finance
-                    tracking, route planning, and data workflows.
+                    I am interested in building useful applications with clean structure and readable code.
                 </p>
             </div>
 
             <div class="interest-card">
                 <div class="interest-icon">
-                    <i class="fa-solid fa-gamepad"></i>
+                    <i class="fa-solid fa-database"></i>
                 </div>
-                <h3>Game Systems 🎮</h3>
+                <h3>Databases</h3>
                 <p>
-                    I enjoy building logic-heavy systems, including games that involve
-                    movement, collision, matching, and state changes.
+                    I like working with relational databases, SQL queries, and organized data models.
                 </p>
             </div>
+
+            <div class="interest-card">
+                <div class="interest-icon">
+                    <i class="fa-solid fa-coins"></i>
+                </div>
+                <h3>Finance Technology</h3>
+                <p>
+                    I am interested in how programming and data tools can support financial analysis.
+                </p>
+            </div>
+
         </div>
     </section>
 
+    <!-- Projects Section -->
     <section id="projects">
-        <h2>My Projects 🚀</h2>
+        <h2>Projects</h2>
 
         <div class="project-container">
 
             <div class="project-card featured-project">
-                <p class="project-type">⭐ Featured Project · Financial Analytics</p>
-
-                <h3>Exchange Rate & Gold Price Tracker</h3>
+                <p class="project-type">Featured Project</p>
+                <h3>Predicting Financial Impact of Economic Shocks</h3>
 
                 <p>
-                    A Python analytics tool that visualizes historical exchange rate and gold price data,
-                    with interactive charts to support trend analysis.
+                    This project used machine learning to predict how economic shocks affected household
+                    financial situations. The model used survey data and classified outcomes such as improved,
+                    worsened, or stayed the same.
                 </p>
 
-                <p class="tools">Python · Data Analysis · Matplotlib · Plotly · Financial Data</p>
+                <p class="tools">
+                    Tools: Python, Pandas, Scikit-learn, Data Cleaning, Machine Learning
+                </p>
 
-                <a class="project-link" href="https://github.com/celinec41/Exchange-Rate-Gold-Price-Tracker" target="_blank">
-                    View on GitHub
+                <a href="https://github.com/celinec41/datathon-2026" class="project-link" target="_blank">
+                    View GitHub
                 </a>
             </div>
 
             <div class="project-card">
-                <p class="project-type">🚲 Software Engineering</p>
-
-                <h3>BikeShare Toronto Trip Planner</h3>
-
-                <p>
-                    A Java desktop application that compares BikeShare and walking routes
-                    based on travel time, distance, and estimated pricing.
-                </p>
-
-                <p class="tools">Java · OOP · Clean Architecture · Swing · API</p>
-
-                <a class="project-link" href="https://github.com/khht2006/CSC207-Group-Project" target="_blank">
-                    View on GitHub
-                </a>
-            </div>
-
-            <div class="project-card">
-                <p class="project-type">🌍 Data Visualization</p>
-
                 <h3>Global Ecological Footprint Dashboard</h3>
 
                 <p>
-                    An interactive dashboard that visualizes ecological footprint and
-                    biocapacity trends across countries using Dash and Plotly.
+                    Built an interactive dashboard to analyze ecological footprint and biocapacity data across
+                    countries. The project included data cleaning, geographic hierarchy structures, and visualizations.
                 </p>
 
-                <p class="tools">Python · Dash · Plotly · Data Visualization</p>
-
-                <a class="project-link" href="https://github.com/celinec41/Global-Ecological-Footprint-" target="_blank">
-                    View on GitHub
-                </a>
-
-                <a class="project-link" href="#" target="_blank">
-                    Open Interactive Demo
-                </a>
-            </div>
-
-            <div class="project-card">
-                <p class="project-type">🤖 Machine Learning</p>
-
-                <h3>Financial Impact Prediction Datathon Project</h3>
-
-                <p>
-                    A machine learning project that predicts how economic shocks may affect
-                    individuals' financial situations using survey data and classification models.
+                <p class="tools">
+                    Tools: Python, Dash, Plotly, Data Visualization
                 </p>
 
-                <p class="tools">Python · Machine Learning · Data Analysis · Feature Engineering</p>
-
-                <a class="project-link" href="https://github.com/celinec41/datathon-2026" target="_blank">
-                    View on GitHub
+                <a href="https://github.com/celinec41/Global-Ecological-Footprint-" class="project-link" target="_blank">
+                    View GitHub
                 </a>
             </div>
 
             <div class="project-card game-card">
-                <p class="project-type">🎮 Low-Level Game System</p>
+                <h3>Columns Game in MIPS Assembly</h3>
 
                 <div class="game-preview">
                     <div class="mini-board">
                         <div class="gem red falling-gem top-gem"></div>
-                        <div class="gem green falling-gem middle-gem"></div>
-                        <div class="gem blue falling-gem bottom-gem"></div>
+                        <div class="gem blue falling-gem middle-gem"></div>
+                        <div class="gem yellow falling-gem bottom-gem"></div>
 
-                        <div class="gem yellow fixed-gem gem1"></div>
+                        <div class="gem green fixed-gem gem1"></div>
                         <div class="gem purple fixed-gem gem2"></div>
                         <div class="gem orange fixed-gem gem3"></div>
-                        <div class="gem red fixed-gem gem4"></div>
-                        <div class="gem green fixed-gem gem5"></div>
+                        <div class="gem blue fixed-gem gem4"></div>
+                        <div class="gem red fixed-gem gem5"></div>
                     </div>
                 </div>
 
-                <h3>Columns Assembly Game</h3>
-
                 <p>
-                    A MIPS assembly game inspired by Columns. The game includes falling gems,
-                    keyboard movement, colour rotation, collision detection, match clearing,
-                    gravity, difficulty selection, pause, sound effects, and a game-over screen.
+                    Created a MIPS assembly game inspired by Columns, including keyboard movement,
+                    falling gems, collision logic, and animated game preview.
                 </p>
 
                 <div class="keyboard-row">
@@ -257,57 +218,79 @@
                     <span>A Left</span>
                     <span>S Drop</span>
                     <span>D Right</span>
+                    <span>Q Quit</span>
                 </div>
 
-                <p class="tools">MIPS Assembly · Bitmap Display · Game Logic · CSC258</p>
+                <p class="tools">
+                    Tools: MIPS Assembly, Bitmap Display, Keyboard Input
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>BikeShare Trip Planner</h3>
+
+                <p>
+                    Designed a Java Swing application using Clean Architecture principles to support
+                    BikeShare trip planning with organized use cases, interface adapters, and a graphical user interface.
+                </p>
+
+                <p class="tools">
+                    Tools: Java, Swing, Clean Architecture, APIs
+                </p>
+
+                <a href="https://github.com/khht2006/CSC207-Group-Project" class="project-link" target="_blank">
+                    View GitHub
+                </a>
             </div>
 
         </div>
     </section>
 
+    <!-- Experience Section -->
     <section id="experience">
-        <h2>Experience 💼</h2>
+        <h2>Experience</h2>
 
         <div class="experience-card">
-            <h3>Asset Management Data & Operation Intern</h3>
-
-            <p class="company">Nomura · Shanghai, China</p>
+            <h3>Asset Management Data & Operation Analytics Intern</h3>
+            <p class="company">Nomura</p>
 
             <p>
-                Worked with fixed-income trading and settlement datasets, supported operational
-                reporting, performed data validation and anomaly detection, and helped automate
-                analytics workflows using Python and Excel VBA.
+                Worked with financial and operational datasets to support reporting, validation,
+                and workflow improvement. I used Python, Excel, and VBA to help automate tasks,
+                check data quality, and improve efficiency.
             </p>
         </div>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact">
-        <h2>Contact Me 📬</h2>
+        <h2>Contact</h2>
 
         <p>
-            Feel free to connect with me through email, LinkedIn, or GitHub.
+            Please feel free to contact me through email, GitHub, or view my resume below.
         </p>
 
         <div class="contact-links">
-            <a href="mailto:celinesy.chen@mail.utoronto.ca" class="contact-btn">
+            <a href="mailto:celine072022@gmail.com" class="contact-btn">
                 <i class="fa-solid fa-envelope"></i>
-                <span>Email</span>
+                Email
             </a>
 
-            <a href="https://www.linkedin.com/in/celine-c-04854725b/" target="_blank" class="contact-btn">
-                <i class="fa-brands fa-linkedin"></i>
-                <span>LinkedIn</span>
-            </a>
-
-            <a href="https://github.com/celinec41" target="_blank" class="contact-btn">
+            <a href="https://github.com/celinec41" class="contact-btn" target="_blank">
                 <i class="fa-brands fa-github"></i>
-                <span>GitHub</span>
+                GitHub
+            </a>
+
+            <a href="SiyiCelineChen-Resume.pdf" class="contact-btn" target="_blank">
+                <i class="fa-solid fa-file-pdf"></i>
+                Resume
             </a>
         </div>
     </section>
 
+    <!-- Footer -->
     <footer>
-        <p>© 2026 Celine Chen. Built with curiosity, code, and data ✨</p>
+        <p>© 2026 Celine Chen. All rights reserved.</p>
     </footer>
 
 </body>
