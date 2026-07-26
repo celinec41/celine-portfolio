@@ -2,14 +2,14 @@
 
 const menuButton = document.querySelector(".menu-button");
 const navLinks = document.querySelector(".nav-links");
-const navigationLinks = document.querySelectorAll(".nav-links a");
+const navigationLinks = document.querySelectorAll(
+    ".nav-links a"
+);
+
 const revealElements = document.querySelectorAll(
     ".reveal, .reveal-card"
 );
 
-/**
- * Open or close the mobile navigation.
- */
 function toggleMobileMenu() {
     if (!menuButton || !navLinks) {
         return;
@@ -23,16 +23,16 @@ function toggleMobileMenu() {
     );
 }
 
-/**
- * Close the mobile navigation after a link is selected.
- */
 function closeMobileMenu() {
     if (!menuButton || !navLinks) {
         return;
     }
 
     navLinks.classList.remove("open");
-    menuButton.setAttribute("aria-expanded", "false");
+    menuButton.setAttribute(
+        "aria-expanded",
+        "false"
+    );
 }
 
 if (menuButton) {
@@ -49,9 +49,6 @@ navigationLinks.forEach((link) => {
     );
 });
 
-/**
- * Reveal content as it enters the viewport.
- */
 const revealObserver = new IntersectionObserver(
     (entries, observer) => {
         entries.forEach((entry) => {
@@ -80,9 +77,6 @@ revealElements.forEach((element, index) => {
     revealObserver.observe(element);
 });
 
-/**
- * Highlight the navigation link for the section currently visible.
- */
 const sections = document.querySelectorAll(
     "header[id], main section[id]"
 );
@@ -116,9 +110,6 @@ sections.forEach((section) => {
     sectionObserver.observe(section);
 });
 
-/**
- * Add a subtle movement effect to the hero artwork.
- */
 const heroArt = document.querySelector(".hero-art");
 
 window.addEventListener(
