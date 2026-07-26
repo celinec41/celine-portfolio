@@ -267,32 +267,37 @@ a {
 }
 
 .hero-name {
+    width: fit-content;
     margin: 0;
     color: var(--navy);
     font-family: var(--serif);
-    font-size: clamp(62px, 7.5vw, 112px);
     font-weight: 600;
-    line-height: 0.78;
+    line-height: 0.8;
     letter-spacing: -4px;
     opacity: 0;
     animation: nameEntrance 1.05s 0.18s ease forwards;
 }
 
-.first-name,
-.last-name {
+.first-name {
     display: block;
     color: var(--navy);
     font-family: inherit;
-    font-size: inherit;
+    font-size: clamp(62px, 7.5vw, 112px);
     font-weight: inherit;
+    white-space: nowrap;
 }
 
 .last-name {
-    margin-left: 0.14em;
+    display: block;
+    width: fit-content;
+    margin: 12px auto 0;
     color: var(--navy-dark);
+    font-family: inherit;
+    font-size: clamp(82px, 10vw, 145px);
+    font-weight: inherit;
     font-style: italic;
+    line-height: 0.72;
 }
-
 .hero-tagline {
     position: relative;
     width: fit-content;
@@ -1590,14 +1595,24 @@ footer p {
     }
 
     .hero-name {
-        font-size: clamp(47px, 14vw, 76px);
-        letter-spacing: -2px;
-    }
+    width: 100%;
+    letter-spacing: -2px;
+    text-align: center;
+}
 
-    .first-name,
-    .last-name {
-        display: block;
-    }
+.first-name {
+    display: block;
+    font-size: clamp(43px, 13vw, 68px);
+    white-space: normal;
+}
+
+.last-name {
+    display: block;
+    width: fit-content;
+    margin: 10px auto 0;
+    font-size: clamp(65px, 20vw, 100px);
+    line-height: 0.75;
+}
 
     .hero-art {
         min-height: 420px;
