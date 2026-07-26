@@ -940,9 +940,18 @@ h2::after {
     box-shadow: 0 15px 27px rgba(39, 57, 83, 0.16);
 }
 
-.university-logo,
+.university-logo {
+    background: var(--navy);
+}
+
 .company-logo {
     background: #ffffff;
+}
+
+.university-logo img {
+    width: 115%;
+    height: 115%;
+    object-fit: contain;
 }
 
 .coursework-logo {
